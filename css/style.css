@@ -1,8 +1,6 @@
 body {
     width: 100%;
 }
-
-
 @font-face{
     font-family: 'Google Sans';
     src: url('/fonts/GoogleSans-Regular.ttf');
@@ -10,7 +8,6 @@ body {
 p, h1, h2, h3, h4, h5, ul, li, .form {
     font-family: 'Google Sans';
 }
-
 header{
     width: 100%;
 }
@@ -23,11 +20,15 @@ header{
     font-size: 40px;
 }
 section{
-    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
     align-content: center;
 }
+.description{
+    text-align: center;
+}
 .topics{
-    padding-left: 10%;
+    padding-left: 30%;
 }
 
 .form {
@@ -73,16 +74,21 @@ section{
 	position:relative;
 	top:1px;
 }
-
 footer{
     background-color: gray;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 30%;
 }
 .footer-img{
-    width: 30%;
 }
-
+.wtm{
+    width: 20%;
+}
+.gdg{
+    width: 25%;
+}
 .footer-link{
     color: blue;
     text-decoration: none;

@@ -82,12 +82,14 @@ footer{
     padding-left: 30%;
 }
 .footer-img{
+    vertical-align: middle;
 }
+
 .wtm{
-    width: 20%;
+    width: 30%;
 }
 .gdg{
-    width: 25%;
+    width: 30%;
 }
 .footer-link{
     color: blue;
@@ -97,4 +99,9 @@ footer{
 }
 strong{
     font-size: 18px;
+}
+
+.sponsor{
+    text-align: center;
+    padding-top: 50px;
 }

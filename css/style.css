@@ -1,5 +1,9 @@
 body {
     width: 100%;
+    color: #666666;
+}
+a {
+    color: #77b55a;
 }
 @font-face{
     font-family: 'Google Sans';
@@ -11,6 +15,10 @@ p, h1, h2, h3, h4, h5, ul, li, .form {
 header{
     width: 100%;
 }
+hr {
+    border: 0.5px solid lightgray;
+    margin-bottom: 25px;
+}
 .banner-img{
     width: 100%;
 }
@@ -19,18 +27,35 @@ header{
     text-align: center;
     font-size: 40px;
 }
+.container {
+    display: flex;
+    margin: 20px 50px;
+    flex-flow: column;
+}
 section{
-    padding-left: 20%;
-    padding-right: 20%;
     align-content: center;
+    margin-bottom: 20px;
+}
+.talks {
+    display: flex;
+    justify-content: space-around;
+}
+.talks li {
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.topics .topic-card {
+    margin-bottom: 40px;
 }
 .description{
     text-align: center;
 }
-.topics{
-    padding-left: 30%;
+.form-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
-
 .form {
 	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
 	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
@@ -58,7 +83,6 @@ section{
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    margin-left: 20%;
 }
 .form:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
@@ -73,6 +97,28 @@ section{
 .form:active {
 	position:relative;
 	top:1px;
+}
+.topic-cards-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+.topic-card {
+    padding: 30px;
+    box-shadow: 0px 10px 14px -7px lightgrey;
+}
+.topic-card ul {
+    list-style: none;
+    padding: 0;
+}
+.topic-card a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+}
+.topic-card a:hover {
+    text-decoration: underline;
 }
 footer{
     background-color: gray;
@@ -92,7 +138,6 @@ footer{
     width: 30%;
 }
 .footer-link{
-    color: blue;
     text-decoration: none;
     font-weight: bolder;
     font-size: 20px;
